@@ -1,0 +1,33 @@
+body {
+  line-height: 1.5;
+  font-size: 100%;
+  background-color: lightgray;
+}
+
+img {
+  max-width: 100%;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: "Helvetica Neue", serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+}
+
+article {
+  width: 75%;
+  margin: 0 auto;
+}
+
+a, a:link, a:active {
+  text-decoration: none;
+  color: black;
+}
