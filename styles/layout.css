@@ -1,0 +1,18 @@
+.clearfix::after {
+  content: " ";
+  visibility: hidden;
+  display: table;
+  clear: both;
+}
+
+.social-media ul {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 0%;
+}
+
+.social-media li {
+  display: inline;
+  margin: 2%;
+}

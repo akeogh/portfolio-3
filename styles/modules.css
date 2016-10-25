@@ -1,0 +1,41 @@
+header {
+  background-color: white;
+}
+
+#main-nav ul {
+  list-style: none;
+  float: right;
+  display: inline;
+  margin-top: 3%;
+  width: 30%;
+  padding: 0%;
+}
+
+.icon-menu {
+  float: right;
+  font-size: 3em;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+#main-nav li {
+  display: inline;
+  margin: 5%;
+}
+
+.header-h1 {
+  float: left;
+  margin-left: 5%;
+}
+
+@media screen and (min-width:450px) {
+  .icon-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width:450px) {
+  #main-nav ul {
+    display: none;
+  }
+}
